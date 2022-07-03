@@ -6,7 +6,7 @@ from asyncio import create_task
 
 prefix = '!' # наш префикс
 
-token = 'бот токен'
+token = open("token.txt").read()
 
 # включаем интенты и создаем переменную бота (client)
 intents = Intents.default()
